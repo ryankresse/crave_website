@@ -1,0 +1,21 @@
+/*-----------------------------------------------
+
+				POST STYLES
+------------------------------------------------*/
+
+
+.archive-title {
+	font-size:2.4rem;
+	margin-top:0;
+	text-transform:none;
+	font-weight: 300;
+	color: $crave-orange;
+	border-bottom: 1px solid $crave-orange;
+
+}
+@media screen and (max-width: 780px) {
+	.archive-header {
+		clear:both;
+		border-bottom: none;
+	}
+}
