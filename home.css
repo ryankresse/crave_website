@@ -1,174 +1,79 @@
-/*-----------------------------------------------
+/*
+Syntax error: Undefined variable: "$font-stack".
+        on line 22 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss
 
-					HOME STYLES
-------------------------------------------------*/
-/* line 6, scss/home.scss */
-body {
-  background-image: url(images/light_toast_@2X.png);
-  background-repeat: repeat repeat;
-  /*background: rgba(0,189,210,1);
-  background: -moz-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,189,210,1)), color-stop(2%, rgba(7,190,211,1)), color-stop(69%, rgba(232,232,232,1)), color-stop(100%, rgba(232,232,232,1)));
-  background: -webkit-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
-  background: -o-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
-  background: -ms-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
-  background: linear-gradient(to bottom, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bdd2', endColorstr='#e8e8e8', GradientType=0 );*/
-}
-
-/* line 18, scss/home.scss */
-body .site {
-  border-radius: 3px;
-}
-
-/* line 21, scss/home.scss */
-.phone-number {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-align: left;
-  font-size: .8rem;
-  display: block;
-}
-
-/* line 27, scss/home.scss */
-.mobile-logo-home {
-  display: block;
-  width: 250px;
-  margin: 0px auto;
-}
-
-/* line 32, scss/home.scss */
-.mobile-logo-home img {
-  max-width: 100%;
-  margin-top: 24px;
-}
-
-/* line 36, scss/home.scss */
-.welcome-message {
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.2;
-  margin-top: 24px;
-}
-
-/* line 42, scss/home.scss */
-.page-copy {
-  margin: 0 0 1.714285714rem;
-  line-height: 1.714285714;
-}
-
-/* line 46, scss/home.scss */
-.home-widget {
-  margin-bottom: 48px;
-  border-top: 1px solid #ccc;
-  /*text-align: center;*/
-}
-
-/* line 51, scss/home.scss */
-.page-sub-head {
-  padding-bottom: 4px;
-  /*border-bottom: 1px solid #ccc;*/
-  text-align: left;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #ff7c03;
-  font-size: 2.2rem;
-}
-
-/* line 62, scss/home.scss */
-.widget-wrapper {
-  margin-top: 30px;
-}
-
-/* line 65, scss/home.scss */
-.widget-link {
-  position: relative;
-}
-
-/* line 68, scss/home.scss */
-.widget-link a {
-  postion: absolute;
-  bottom: 5px;
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 2rem;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #ff7c03;
-  padding: 10px;
-  display: block;
-  width: 125px;
-  height: 35px;
-  font-size: .9rem;
-  text-decoration: none;
-}
-
-/* line 84, scss/home.scss */
-.widget-link a:hover, .widget-link a:focus {
-  background-color: #ff7c03;
-  color: #fff;
-}
-
-/* line 88, scss/home.scss */
-.slider {
-  display: none;
-}
-
-@media screen and (min-width: 403px) {
-  /* line 92, scss/home.scss */
-  .phone-number {
-    display: none;
-  }
-}
-@media screen and (min-width: 780px) {
-  /* line 97, scss/home.scss */
-  .home-widget {
-    width: 28%;
-    float: left;
-    margin-right: 8%;
-    margin-bottom: 0px;
-    border-top: 0px;
-  }
-
-  /* line 104, scss/home.scss */
-  .widget-last {
-    margin-right: 0;
-  }
-
-  /* line 107, scss/home.scss */
-  .page-sub-head {
-    border-bottom: 1px solid #ccc;
-  }
-
-  /* line 110, scss/home.scss */
-  .widget-wrapper {
-    margin-top: 24px;
-  }
-
-  /* line 113, scss/home.scss */
-  .mobile-logo-home {
-    display: none;
-  }
-
-  /* line 116, scss/home.scss */
-  .slider {
-    display: block;
-    border-radius: 3px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-  }
-
-  /* line 125, scss/home.scss */
-  .metaslider {
-    border-radius: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 97.5%;
-  }
-}
+Backtrace:
+/Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss:22
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:294:in `visit_prop'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$font-stack\".\A         on line 22 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss"; }

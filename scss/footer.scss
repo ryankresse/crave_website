@@ -28,7 +28,7 @@ footer[role="contentinfo"] a {
 	text-decoration:none;
 }
 footer[role="contentinfo"] a:hover {
-	color: #ff7c03;
+	color: $crave-orange;
 }
 @media screen and (max-width: 780px) and (min-width: 500px) {
 	.footer-widget {
