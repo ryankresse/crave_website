@@ -49,22 +49,22 @@ http://snook.ca/archives/html_and_css/font-size-with-rem
 http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 */
 
-@import 'reset';
+@import '_reset';
 
-@import 'variables';
+@import '_variables';
 
-@import 'parent_theme_base_styles';
+@import '_parent_theme_base_styles';
 
 /* the styles I've written are below */
 
-@import 'header';
+@import '_header';
 
-@import 'home';
+@import '_home';
 
-@import 'about-products';
+@import '_about-products';
 
-@import 'sidebar';
+@import '_sidebar';
 
-@import 'footer';
+@import '_footer';
 
-@import 'posts';
+@import '_posts';
