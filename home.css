@@ -1,9 +1,17 @@
 /*
+<<<<<<< HEAD
 Syntax error: Undefined variable: "$crave-orange".
         on line 59 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss
 
 Backtrace:
 /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss:59
+=======
+Syntax error: Undefined variable: "$font-stack".
+        on line 22 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss
+
+Backtrace:
+/Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss:22
+>>>>>>> refactoring_scss
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -76,4 +84,8 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
   content: "Syntax error: Undefined variable: \"$crave-orange\".\A         on line 59 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss"; }
+=======
+  content: "Syntax error: Undefined variable: \"$font-stack\".\A         on line 22 of /Applications/MAMP/htdocs/crave/wp-content/themes/crave_test/scss/home.scss"; }
+>>>>>>> refactoring_scss

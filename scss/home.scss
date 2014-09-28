@@ -19,7 +19,7 @@ body .site {
 	border-radius: 3px;
 }
 .phone-number {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: $font-stack;
 	text-align: left;
 	font-size: .8rem;
 	display: block;
@@ -54,7 +54,7 @@ body .site {
 	text-align: left;
 	margin-top: 24px;
 	margin-bottom: 24px;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: $font-stack;
 	font-weight: 300;
 	color: $crave-orange;
 	font-size: 2.2rem;
