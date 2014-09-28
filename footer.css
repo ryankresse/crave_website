@@ -1,0 +1,68 @@
+/*-----------------------------------------------
+
+				FOOTER STYLES
+------------------------------------------------*/
+/* line 6, scss/footer.scss */
+.footer-widget {
+  border-top: 1px solid #ededed;
+  margin-bottom: 24px;
+}
+
+/* line 10, scss/footer.scss */
+.footer-widget li {
+  color: #A8A5A5;
+}
+
+/* line 13, scss/footer.scss */
+footer[role="contentinfo"] {
+  clear: both;
+  font-size: 0.9rem;
+  line-height: 2;
+  max-width: 960px;
+  max-width: 68.571428571rem;
+  margin-top: 24px;
+  margin-top: 1.714285714rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 0;
+  padding: 1.714285714rem 0;
+}
+
+/* line 26, scss/footer.scss */
+footer[role="contentinfo"] a {
+  color: #A8A5A5;
+  text-decoration: none;
+}
+
+/* line 30, scss/footer.scss */
+footer[role="contentinfo"] a:hover {
+  color: #ff7c03;
+}
+
+@media screen and (max-width: 780px) and (min-width: 500px) {
+  /* line 34, scss/footer.scss */
+  .footer-widget {
+    width: 45%;
+    float: left;
+  }
+
+  /* line 38, scss/footer.scss */
+  .odd {
+    margin-right: 10%;
+    clear: both;
+  }
+}
+@media screen and (min-width: 780px) {
+  /* line 44, scss/footer.scss */
+  .footer-widget {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-right: 6.6666%;
+  }
+
+  /* line 50, scss/footer.scss */
+  .widget-last {
+    margin-right: 0;
+  }
+}

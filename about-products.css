@@ -1,0 +1,102 @@
+/*-----------------------------------------------
+
+STYLES FOR THE MAIN SECTIONS OF THE ABOUT AND PRODUCT PAGES
+------------------------------------------------*/
+/* line 7, scss/about-products.scss */
+.header-image {
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  width: 97.75%;
+  height: auto;
+}
+
+/* line 16, scss/about-products.scss */
+.about-products-main .entry-header .entry-title {
+  font-size: 2.4rem;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-weight: 300;
+  color: #ff7c03;
+}
+
+/* line 23, scss/about-products.scss */
+.about-products-main .entry-content h2 {
+  padding-bottom: 4px;
+  border-bottom: 1px dotted #ccc;
+  font-size: .9rem;
+  margin-bottom: 12px;
+}
+
+/* line 29, scss/about-products.scss */
+.products-ul {
+  list-style: disc outside;
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: 1.714285714;
+}
+
+/* line 35, scss/about-products.scss */
+.products-li {
+  margin: 0 0 0 2.571428571rem;
+}
+
+/* line 38, scss/about-products.scss */
+.product-body-image {
+  margin-bottom: 1.714285714rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 43, scss/about-products.scss */
+.about-products-main p {
+  margin: 0 0 1.714285714rem;
+  line-height: 1.714285714;
+}
+
+/* line 47, scss/about-products.scss */
+.about-products-main li {
+  margin: 0 0 0 2.571428571rem;
+}
+
+/* line 50, scss/about-products.scss */
+.about-products-main ul {
+  list-style: disc outside;
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: 1.714285714;
+  margin: 0 0 1.714285714rem;
+}
+
+/* line 57, scss/about-products.scss */
+.about-products-main img {
+  max-width: 100%;
+}
+
+/* line 60, scss/about-products.scss */
+.about-products-header {
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 780px) {
+  /* line 70, scss/about-products.scss */
+  .about-products-main {
+    width: 65.104166667%;
+    float: left;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 76, scss/about-products.scss */
+  .about-products-header {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}

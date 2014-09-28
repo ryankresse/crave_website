@@ -1,0 +1,43 @@
+/*-----------------------------------------------
+
+				ABOUT PAGE STYLES
+------------------------------------------------*/
+
+
+.about-right {
+	clear:both;
+	width:100%;
+}
+
+
+@media screen and (min-width: 780px) {
+	.about-right {
+		display:block;
+		width:26.041666667%;
+		clear:none;
+		float:right;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.sidebar-header {
+		font-size:1.1rem;
+		border-bottom:1px solid #ededed;
+		padding-bottom:2px;
+		margin-bottom:4px;
+	}
+	.sidebar-copy {
+		font-size:.9rem;
+		margin: 0 0 1.714285714rem;
+		line-height: 1.714285714;
+		color:#B0B0B0;
+	}
+	.sidebar-li {
+		font-size:.8rem;
+		margin: 0 0 .5rem;
+		color:#B0B0B0;
+	}
+	.sidebar-ul {
+		margin:0 0 1.714285714rem;
+	}
+}

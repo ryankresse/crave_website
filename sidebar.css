@@ -1,0 +1,124 @@
+/*-----------------------------------------------
+
+STYLES FOR THE SIDEBARS OF THE ABOUT PAGE, PRODUCT PAGES, NEWS POSTS AND RECIPE POSTS
+
+------------------------------------------------*/
+/* line 8, scss/sidebar.scss */
+.about-sidebar {
+  clear: both;
+  width: 100%;
+  background: #ededed;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 16, scss/sidebar.scss */
+.sidebar-ul li {
+  font-size: .8rem;
+  margin: 0 0 .5rem;
+  color: #B0B0B0;
+}
+
+/* line 21, scss/sidebar.scss */
+.sidebar-ul {
+  margin: 0 0 1.714285714rem;
+}
+
+/* line 24, scss/sidebar.scss */
+.products-sidebar {
+  display: none;
+}
+
+/* line 27, scss/sidebar.scss */
+.sidebar-header {
+  font-size: .8rem;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+
+/* line 32, scss/sidebar.scss */
+.sidebar-copy {
+  font-size: .8rem;
+  margin: 0 0 1.714285714rem;
+  line-height: 1.714285714;
+  color: #969595;
+}
+
+/* line 38, scss/sidebar.scss */
+.products-sidebar ul li {
+  font-size: .8rem;
+  color: #B0B0B0;
+}
+
+/* line 42, scss/sidebar.scss */
+.products-sidebar a {
+  font-size: .8rem;
+  margin: 0 0 1.714285714rem;
+  line-height: 1.714285714;
+  text-decoration: none;
+  color: #B0B0B0;
+}
+
+/* line 50, scss/sidebar.scss */
+.products-sidebar a:hover,
+.products-sidebar a:focus {
+  color: #ff7c03;
+}
+
+/* line 53, scss/sidebar.scss */
+.widget-area {
+  background: #ededed;
+  padding: 10px;
+  margin-top: -24px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 60, scss/sidebar.scss */
+.widget-title {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* line 64, scss/sidebar.scss */
+.widget-area .widget a {
+  color: #B0B0B0;
+}
+
+/* line 67, scss/sidebar.scss */
+.widget-area .widget li {
+  font-size: .95rem;
+  color: #B0B0B0;
+  line-height: 1.714285714;
+}
+
+@media screen and (min-width: 780px) {
+  /* line 74, scss/sidebar.scss */
+  .about-sidebar {
+    display: block;
+    width: 26.041666667%;
+    clear: none;
+    float: right;
+    margin-top: 20px;
+  }
+
+  /* line 81, scss/sidebar.scss */
+  .products-sidebar {
+    display: block;
+    width: 26.041666667%;
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+    background: #ededed;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 91, scss/sidebar.scss */
+  .widget-area {
+    float: right;
+    width: 26.041666667%;
+    margin-top: 50px;
+  }
+}
