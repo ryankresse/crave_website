@@ -56,7 +56,7 @@ body .site {
 	margin-bottom: 24px;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	color: #ff7c03;
+	color: $crave-orange;
 	font-size: 2.2rem;
 }
 .widget-wrapper {
@@ -73,7 +73,7 @@ body .site {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #ff7c03;
+	border: 1px solid $crave-orange;
 	padding: 10px;
 	display: block;
 	width: 125px;
@@ -82,7 +82,7 @@ body .site {
 	text-decoration: none;
 }
 .widget-link a:hover, .widget-link a:focus {
-	background-color: #ff7c03;
+	background-color: $crave-orange;
 	color: #fff;
 }
 .slider {
