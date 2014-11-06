@@ -7,7 +7,7 @@
 get_header(); ?>
 
 		<div class = "about-products-header">
-			<img src="<?php the_field('about_header_image'); ?>" class = "header-image" alt="linkedin icon" >
+			<img src="<?php the_field('about_header_image'); ?>" alt="linkedin icon" >
 		</div><!--products-header-->	
 		<main class = "about-products-main">
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -15,7 +15,7 @@ get_header(); ?>
 				<?php comments_template( '', true ); ?>
 			<?php endwhile; // end of the loop. ?>
 		</main>
-		<aside class = "about-sidebar">
+		<aside class = "about-sidebar ">
 			<h3 class = "sidebar-header">Hours</h3>
 				<ul class = "sidebar-ul">
 					<li>Mon - Fri: 10:00 am - 6:00 pm</li>

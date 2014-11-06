@@ -4,52 +4,73 @@ STYLES FOR THE SIDEBARS OF THE ABOUT PAGE, PRODUCT PAGES, NEWS POSTS AND RECIPE 
 
 ------------------------------------------------*/
 
-
+/*---about page sidebar styles---*/
 .about-sidebar {
-	clear:both;
-	width:100%;
+	clear: both;
+	width: 100%;
 	background: #ededed;
 	padding: 10px;
 	border-radius: 3px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .sidebar-ul li {
-	font-size:.8rem;
+	font-size: .8rem;
 	margin: 0 0 .5rem;
-	color: #B0B0B0;
 }
 .sidebar-ul {
 	margin:0 0 1.714285714rem;
 }
+.sidebar-header {
+	font-size: .9rem;
+	padding-bottom: 2px;
+	margin-bottom: 4px;
+}
+.sidebar-copy {
+	font-size: .8rem;
+	margin: 0 0 1.714285714rem;
+	line-height: 1.714285714;
+}
+/*---product page sidebar styles---*/
 .products-sidebar {
 	display:none;
 }
-.sidebar-header {
-	font-size:.8rem;
-	padding-bottom:2px;
-	margin-bottom:4px;
+.products-sidebar h3 {
+	font-size: .9rem;
+	padding-bottom: 2px;
+	margin-bottom: .5rem;
+	line-height: 1.4;
 }
-.sidebar-copy {
-	font-size:.8rem;
-	margin: 0 0 1.714285714rem;
+.products-sidebar h4 {
+	font-size: .73rem;
+	padding-bottom: 2px;
+	margin-bottom: .4rem;
+}
+.products-sidebar p {
+	font-size: .8rem;
+	margin: 0 0 .8rem;
 	line-height: 1.714285714;
-	color:#969595;
+}
+.products-sidebar ul {
+	margin: 0 0 .8rem;
+	list-style: disc outside;
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 1.714285714;
 }
 .products-sidebar ul li {
 	font-size:.8rem;
-	color: #B0B0B0;
 }
 .products-sidebar a {
 	font-size: .8rem;
 	margin: 0 0 1.714285714rem;
 	line-height: 1.714285714;
-	text-decoration: none;
-	color: #B0B0B0;
+	text-decoration: underline;
 }
 .products-sidebar a:hover,
 .products-sidebar a:focus {
 	color: $crave-orange;
 }
+/*---recipes and news pages sidebar styles---*/
 .widget-area {
 	background: #ededed;
 	padding: 10px;
@@ -62,11 +83,10 @@ STYLES FOR THE SIDEBARS OF THE ABOUT PAGE, PRODUCT PAGES, NEWS POSTS AND RECIPE 
 	margin-bottom:10px;
 }
 .widget-area .widget a {
-	color: #B0B0B0;
+	color: #444;
 }
 .widget-area .widget li {
-	font-size:.95rem;
-	color: #B0B0B0;
+	font-size: .85rem;
 	line-height: 1.714285714;
 }
 

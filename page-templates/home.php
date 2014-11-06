@@ -18,10 +18,15 @@ get_header(); ?>
 		
 		<section class = "widget-wrapper">
 			<ul>
-				<li class = "home-widget">
+				<li class = "home-widget clear">
+					<!--<span class = "widget-content">
+						About Us
+						
+					</span>-->
 					<h2 class = "page-sub-head"><?php the_field('left_widget_headline'); ?></h2>
-					<p class = "page-copy"><?php the_field('left_widget_copy'); ?></p>
-					<p class = "widget-link"><a href = "<?php echo get_site_url(); ?>/about-crave">Read More</a></p>
+						<p class = "page-copy"><?php the_field('left_widget_copy'); ?></p>
+						<p class = "widget-link"><a href = "<?php echo get_site_url(); ?>/about-crave">Read More</a></p>
+					
 				</li>
 				<li class = "home-widget">
 					<h2 class = "page-sub-head"><?php the_field('middle_widget_headline'); ?></h2>
@@ -31,7 +36,7 @@ get_header(); ?>
 				<li class = "home-widget widget-last">
 					<h2 class = "page-sub-head"><?php the_field('right_widget_headline'); ?></h2>
 					<p class = "page-copy"><?php the_field('right_widget_copy'); ?></p>
-					<p class = "widget-link"><a href = "<?php echo get_site_url(); ?>/category/news-and-tips/">Read More</a></p>
+					<p class = "widget-link"><a href = "<?php echo get_site_url(); ?>/category/news-and-resources/">Read More</a></p>
 				</li>
 			</ul>
 		</section><!--widget-area-->

@@ -4,9 +4,10 @@
 ------------------------------------------------*/
 
 body {
-	background-image: url(images/light_toast_@2X.png);
+	background: #0cbfd3;
+	/*background-image: url(images/light_toast_@2X.png);
 	background-repeat: repeat repeat;
-/*background: rgba(0,189,210,1);
+background: rgba(0,189,210,1);
 background: -moz-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,189,210,1)), color-stop(2%, rgba(7,190,211,1)), color-stop(69%, rgba(232,232,232,1)), color-stop(100%, rgba(232,232,232,1)));
 background: -webkit-linear-gradient(top, rgba(0,189,210,1) 0%, rgba(7,190,211,1) 2%, rgba(232,232,232,1) 69%, rgba(232,232,232,1) 100%);
@@ -38,6 +39,7 @@ body .site {
 	font-size: 2rem;
 	line-height: 1.2;
 	margin-top: 24px;
+	text-align: left;
 }
 .page-copy {
 	margin: 0 0 1.714285714rem;
@@ -53,11 +55,11 @@ body .site {
 	/*border-bottom: 1px solid #ccc;*/
 	text-align: left;
 	margin-top: 24px;
-	margin-bottom: 24px;
+	margin-bottom: 12px;
 	font-family: $font-stack;
 	font-weight: 300;
 	color: $crave-orange;
-	font-size: 2.2rem;
+	font-size: 2rem;
 }
 .widget-wrapper {
 		margin-top: 30px;
@@ -88,6 +90,12 @@ body .site {
 .slider {
 	display: none;
 }
+@media screen and (min-width: 450px) {
+	.welcome-message {
+		text-align: justify;
+	}
+}
+
 @media screen and (min-width: 403px) {
 	.phone-number {
 		display: none;
@@ -96,10 +104,36 @@ body .site {
 @media screen and (min-width: 780px) {
 	.home-widget {
 		width: 28%;
-		float: left;
 		margin-right: 8%;
+		/*background-image: url(images/widget-bkground.jpg);
+		width: 32%;
+		height: 300px;
+		position: relative;
+		margin-right: 3.5%;*/
+		
+		float: left;
+		
+				
 		margin-bottom: 0px;
 		border-top: 0px;
+	}
+	.home-widget {
+		font-size: .95rem;
+	}
+	.widget-content {
+		background: #EDF0EB;
+		width: 95%;
+		height: 70px;
+		margin: 0px auto;
+		position: absolute;
+		bottom: 5%;
+		left: 2.5%;
+		text-align: center;
+		font-family: $font-stack;
+		color:#7A7A7A;
+		font-size: 2rem;
+		font-weight: 300;
+		text-transform: uppercase;
 	}
 	.widget-last {
 		margin-right: 0;

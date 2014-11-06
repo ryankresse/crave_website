@@ -5,13 +5,7 @@ STYLES FOR THE MAIN SECTIONS OF THE ABOUT AND PRODUCT PAGES
 
 
 .header-image {
-	border-radius: 3px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	max-width: 100%;
-	width: 97.75%;
-	height: auto;
+
 }
 .about-products-main .entry-header .entry-title  {
 	font-size: 2.4rem;
@@ -54,18 +48,66 @@ STYLES FOR THE MAIN SECTIONS OF THE ABOUT AND PRODUCT PAGES
 	line-height: 1.714285714;
 	margin: 0 0 1.714285714rem;
 }
-.about-products-main img{
-	max-width:100%;
+
+.about-products-main img {
+	max-width: 100%;
+	border: 10px solid #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .about-products-header {
-	border-radius: 3px;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-	position: relative;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	box-sizing: border-box;
 	margin-bottom: 24px;
+	display: block;
 }	
+.about-products-header img {
+	max-width: 100%;
+	border: 10px solid #fff;
+	box-shadow: 0 1px 4px rgba( 0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+/*---styles for the two column lists on the product pages that the client requested at site launch. --*/
+@media screen and (max-width: 625px) {
+	
+	 /*--had to inline some styles to make the uls easily editable in the WP WISYWIG. So have to override them here.*/
+	.product-ul-right,
+	.product-ul-left {
+			float: none !important; 
+			width: 100% !important;
+
+		}
+		ul.product-ul-left {
+			margin-bottom: 0;
+		}
+}
+@media screen and (min-width: 625px) {
+	ul.product-ul-right,
+	ul.product-ul-left {
+		list-style-type: none;
+	}
+	.product-ul-right li,
+	.product-ul-left li {
+		margin-left: 0;
+		font-size: .9rem;
+	}
+	ul.two-col-ul {
+		list-style-type: none;
+	}
+	.product-pg-list-left {
+		float: left;
+		clear: both;
+	}
+	.product-pg-list-right {
+		float: right;
+	}
+	.two-col-ul .product-pg-list-left,
+	.two-col-ul .product-pg-list-right   {
+		margin-left: 0;
+		width: 48%;
+		font-size: .9rem;
+	}
+}
+
 @media screen and (min-width: 780px) {
 	.about-products-main {
 		width: 65.104166667%;

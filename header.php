@@ -27,6 +27,16 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-55364996-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -48,7 +58,7 @@
 				</p>
 				<ul>
 					<li class = "secondary-nav-icons">
-						<a href="#" target = "_blank">
+						<a href="https://plus.google.com/u/0/104193551844420844441/about" target = "_blank">
 							<img src="<?php echo get_template_directory_uri();?>/images/google_plus_header.png"  alt="Add us to your Google Plus circles" >
 						</a>
 					</li>
